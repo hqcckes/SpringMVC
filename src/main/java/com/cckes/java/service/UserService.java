@@ -9,6 +9,6 @@ import java.util.List;
  */
 public interface UserService {
 
-    public void saveUsers(List<User> us);
-    public List<User> getAllUsernames();
+    void saveUsers(List<User> us);
+    List<User> getAllUsernames();
 }
